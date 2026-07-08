@@ -1,0 +1,42 @@
+
+CI-CD Continuous Integration Continuoud Delivery/Deployment
+SAD TMC 
+S-System Engineering
+A-Analysis
+D- Design 
+C-Coding
+T - Testing
+M-Maintenance
+
+
+1. Create a sample webpage and check in code into GitHub. Understand CI-CD
+Step 1
+to open visual studio code .
+
+Set up live server
+Step2- check git is installed in the system using gi --version
+To install, https://git-scm.com/install/windows
+Step 3: Login to github.com 
+
+
+echo "# nhcesree" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rajasree87/nhcesree.git
+git push -u origin main
+
+
+ git config --global user.email "rajasreers23@gmail.com"
+  git config --global user.name "rajasree87"
+
+
+Static Website Hosting
+Click setting in my repository
+on the left click pages
+Under the branch select main
+click save
+wait for sometime
+ and refresh
+you will get website url
